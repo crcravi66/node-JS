@@ -1,11 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>view</title>
-</head>
-<body>
+<%- include('partials/head') %>
+
+
+<%- include('partials/nav') %>
+
+
+    <div class="container">
     <h1>multiple click  option in single button (verson1) <%= 5 + 6 %> <%- 5 + 6 -%></h1>
     <button onclick="alert('hi there'); alert(' another time')" > click me</button>
     <button ondblclick="alert('you clicked for double click')">Double click</button>
@@ -27,7 +26,9 @@
         <h1 id="rgb">background color</h1>
         <button id="bg-color-c"> change background-color </button>
     </div>
-
-    
-</body>
-</html>
+    </div>
+ 
+ 
+ 
+ 
+<%- include('partials/htmlfoot') %>
