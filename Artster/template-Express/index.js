@@ -28,7 +28,7 @@ app.get('/rand',(req, res) =>{
     res.render('random', {rand : num})
 })
 
-app.get("/cat",(req, res) => {
+app.get("",(req, res) => {
     const cats = ["Kitty", "Blue", "Rocket", "Monty", "strphanie", "Winston"]
     res.render("cats", {cats})
 })
